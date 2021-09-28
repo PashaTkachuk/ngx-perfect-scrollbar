@@ -1,8 +1,8 @@
 {
-  "name": "ngx-perfect-scrollbar",
+  "name": "ngx-perfect-scrollbar2",
   "description": "Angular wrapper library for Perfect Scrollbar",
-  "bugs": "https://github.com/zefoy/ngx-perfect-scrollbar/issues",
-  "version": "10.1.1",
+  "bugs": "https://github.com/PashaTkachuk/ngx-perfect-scrollbar/issues",
+  "version": "10.1.2",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -23,20 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zefoy/ngx-perfect-scrollbar.git"
-  },
-  "config": {
-    "deployToGit": {
-      "repository": "git@github.com:zefoy/ngx-perfect-scrollbar.git",
-      "branch": "gh-pages",
-      "folder": "dist/app",
-      "script": "ng build app --prod -- --base-href=ngx-perfect-scrollbar --delete-output-path=false",
-      "commit": "Publishing $npm_package_version",
-      "user": {
-        "name": "ZEF Devel",
-        "email": "devel@zef.fi"
-      }
-    }
+    "url": "https://github.com/PashaTkachuk/ngx-perfect-scrollbar.git"
   },
   "dependencies": {
     "@angular/cdk": "^10.0.0",
